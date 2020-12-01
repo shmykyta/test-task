@@ -19,5 +19,5 @@ variable "region" {
 variable "ip_range" {
   description = "Range of IP subnet"
   type        = string
-  default     = "192.168.1.0/24"
+  default     = "10.0.0.0/8"
 }

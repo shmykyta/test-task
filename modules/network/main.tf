@@ -5,6 +5,7 @@ locals {
 resource "google_compute_network" "network" {
   name    = local.network
   project = var.project
+  auto_create_subnetworks = try(var.auto_create_subnetworks, false)
 }
 
 resource "google_compute_subnetwork" "subnet" {
