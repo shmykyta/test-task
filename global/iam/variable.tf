@@ -13,7 +13,7 @@ variable "region" {
 variable "dev_group" {
   description = "Main email for dev team"
   type        = string
-  default     = "dev@twingate.com"
+  default     = "dev@somecompany.com"
 }
 
 variable "dev_role_id" {
